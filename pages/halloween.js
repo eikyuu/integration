@@ -1,6 +1,8 @@
+import React from "react";
 import Head from "next/head";
+import Citrouille from "../components/Citrouille";
 
-export default function Home() {
+const Halloween = () => {
   return (
     <div>
       <Head>
@@ -10,10 +12,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Citrouille />
       </main>
     </div>
   );
-}
+};
+
+export default Halloween;
