@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Citrouille from "../components/Citrouille";
+import Dune from "../components/halloween/dune";
+import Main from "../styles/page/halloween/main";
 
 const Halloween = () => {
   return (
@@ -11,9 +13,9 @@ const Halloween = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Citrouille />
-      </main>
+      <Main>
+        <Dune/>
+      </Main>
     </div>
   );
 };
