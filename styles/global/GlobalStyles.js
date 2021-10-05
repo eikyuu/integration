@@ -2,6 +2,13 @@ import {createGlobalStyle} from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 
+@font-face {
+  font-family: "halloween";
+  src: url("/fonts/halloweek.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal;
+}
 
 html {
   line-height: 1.15; /* 1 */

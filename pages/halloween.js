@@ -14,6 +14,7 @@ const Halloween = () => {
       </Head>
 
       <Main>
+        <h1>Halloween Party</h1>
         <Dune/>
       </Main>
     </div>
