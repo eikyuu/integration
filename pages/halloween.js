@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Citrouille from "../components/Citrouille";
+import Citrouille from "../components/halloween/Citrouille";
 import Dune from "../components/halloween/dune";
 import Main from "../styles/page/halloween/main";
 
