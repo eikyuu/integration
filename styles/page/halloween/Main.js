@@ -7,7 +7,7 @@ const Main = styled.main`
     display: flex;
     justify-content: center;
     h1 {
-        margin-top : 4rem;
+        margin-top : 12rem;
         font-size: 5rem;
         color: darkorange;
         font-family: "halloween";
