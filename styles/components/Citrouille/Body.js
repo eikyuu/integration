@@ -6,8 +6,6 @@ const Body = styled.div`
   width: 200px;
   border-radius: 50%;
   position: absolute;
-  right: 400px;
-  top: -80px;
   padding-right: 30px;
 `;
 

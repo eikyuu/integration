@@ -1,5 +1,6 @@
 import React from "react";
-import Body from "../../styles/components/Citrouille/Body";
+import CitrouilleOne from "../../styles/components/Citrouille/CitrouilleOne";
+import CitrouilleTwo from "../../styles/components/Citrouille/CitrouilleTwo";
 import EyeLeft from "../../styles/components/Citrouille/EyeLeft";
 import EyeRight from "../../styles/components/Citrouille/EyeRight";
 import Eyes from "../../styles/components/Citrouille/Eyes";
@@ -9,12 +10,18 @@ import Stem from "../../styles/components/Citrouille/Stem";
 const Citrouille = () => {
   return (
     <React.Fragment>
-      <Body>
+      <CitrouilleOne>
         <Stem />
         <EyeLeft />
         <EyeRight />
         <Smile />
-      </Body>
+      </CitrouilleOne>
+      <CitrouilleTwo>
+        <Stem />
+        <EyeLeft />
+        <EyeRight />
+        <Smile />
+      </CitrouilleTwo>
     </React.Fragment>
   );
 };
